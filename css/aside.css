@@ -1,0 +1,32 @@
+@import url(./style.css);
+
+:root{
+    /* Cores */
+  --background-color-aside: #14161D;
+  --background-color: #202537;
+}
+ 
+ #side_nav{
+  background: var(--background-color-aside);
+  min-width: 13rem;
+  transition: all 0.3s;
+  height: 100%;
+}
+ .content{
+    width: 100%;
+ }
+ hr.h-color{
+   background: #eee;
+ }
+ 
+ .sidebar li:hover{
+    background: #eee;
+    border-radius: 8px;
+ }
+ 
+ .sidebar li.active a, .sidebar a:hover {
+  color: var(--background-color-aside);
+ }
+ .sidebar li a{
+  color: #fff;
+ }
