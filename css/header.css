@@ -1,0 +1,31 @@
+:root {
+	--bg: #202537;
+}
+ 
+nav {
+  width: 100%;
+  transition: all 0.3s;
+  height: 100%;
+  margin-bottom: 2.5rem;
+}
+
+ button {
+  color: white;
+  list-style: none;
+  background-color: var(--bg);
+  border: none;
+  border-radius: 10px;
+  width: 10rem;
+  text-align: center;
+
+  &:hover {
+    color: white;
+    background-color: var(--bgCard);
+    box-shadow: #5e5e5e 0px 0px 10px 0px;
+  }
+ }
+
+.botoes {
+  display: flex;
+  justify-content: end;
+}

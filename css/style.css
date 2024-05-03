@@ -1,7 +1,4 @@
-@import url('dashboard.css');
-@import url('aside.css');
-@import url('monitoramento.css');
-
+@import url('header.css');
 
 /* Variaveis CSS */
 :root {
@@ -21,13 +18,14 @@
 		"Noto Color Emoji";
 }
 
+
 /* Elementos padrão */
 
 body {
-	display: flex;
+	/* display: flex;
 	flex-direction: row;
 	flex: 1;
-	overflow: auto;
+	overflow: auto; */
     color: #fff;
     background-color: var(--bg);
 }
@@ -81,8 +79,8 @@ body {
 .center_content {
 	display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 1rem;
 	border-radius: 1rem;
 	background-color: var(--bgCard);
@@ -110,6 +108,10 @@ body {
     cursor: pointer;
 }
 
+.iframe_video{
+    height: 50%;
+}
+
 .norte,
 .nordeste,
 .centro-oeste,
@@ -127,15 +129,19 @@ body {
 
 .sul {
 	fill: var(--estadosSul);
+
+    &:hover {
+        fill: #e51818;
+    }
 }
 
 path {
-	stroke: white;
+	stroke: rgba(255, 255, 255, 0.591);
 	stroke-width: 1px;
 }   
 
 .freeFlow:hover {
-	stroke: red;
+	stroke: rgb(255, 255, 255);
 	stroke-width: 3px;
 	transition: fill 0.4s;
 }
@@ -194,10 +200,6 @@ path {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    #side_nav{
-        display: none;
     }
     
     .dashboard_container {
