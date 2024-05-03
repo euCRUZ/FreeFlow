@@ -11,7 +11,6 @@ nav {
 }
 
 .botao_dashboard, .botao_camera {
-  color: white;
   list-style: none;
   background-color: var(--bg);
   border: none;
