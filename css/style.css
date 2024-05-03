@@ -27,7 +27,7 @@ body {
 	flex: 1;
 	overflow: auto; */
     color: #fff;
-    background-color: var(--bg);
+    background-color: var(--bg); 
 }
 
 .dashboard_container {
@@ -96,12 +96,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 16px;
+    margin-top: 4rem;
 }
 
 .bottom_svg_mapa{
     padding: 2rem;
-	max-width: 27%;
+	max-width: 25%;
 }
 
 .pointer{

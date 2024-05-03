@@ -1,24 +1,27 @@
 :root {
 	--bg: #202537;
+  --bgCard: #14161D;
 }
  
 nav {
+  background-color: var(--bgCard);
   width: 100%;
   transition: all 0.3s;
   height: 100%;
-  margin-bottom: 2.5rem;
 }
 
- button {
+.botao_dashboard, .botao_camera {
   color: white;
   list-style: none;
   background-color: var(--bg);
   border: none;
   border-radius: 10px;
-  width: 10rem;
+  width: 8rem;
   text-align: center;
+  transition: all 0.3s;
+  margin: 0 1rem;
 
-  &:hover {
+    &:hover {
     color: white;
     background-color: var(--bgCard);
     box-shadow: #5e5e5e 0px 0px 10px 0px;
@@ -27,5 +30,21 @@ nav {
 
 .botoes {
   display: flex;
+  flex-direction: row;
   justify-content: end;
+  align-items: center;
+  
+}
+
+@media (max-width: 991px) {
+
+  .botoes {
+    display: block;
+    margin: 1rem 1rem;
+  }
+ 
+  .botao_dashboard, .botao_camera {
+    width: 20%;
+    margin: 0.8rem 0;
+  }
 }
