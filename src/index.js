@@ -15,7 +15,6 @@ botaoCamera.addEventListener('click', () => {
             <p class="pointer">X</p>
         </p>
 
-
         </div>
         <iframe class="iframe_video" src="https://www.youtube.com/embed/C14j5vQ8PU4"
             title="Papagaio faz &quot;visita&quot; a câmera de segurança em rodovia no Paraná" frameborder="0"
