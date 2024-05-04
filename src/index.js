@@ -26,7 +26,7 @@ botaoCamera.addEventListener('click', () => {
                 <h3 class="fs-5">Status da câmera: X</h3>
             <ul>
                 <li class="fs-5">Sinal impactado</span></li>
-                <li class="fs-5">Qualidaade de vídeo impactado</span></li>
+                <li class="fs-5">Qualidade de vídeo impactado</span></li>
                 <li class="fs-5">Quantidade de carros</span></li>
             </ul>
             <h3 class="fs-5">Status da câmera: X</h3>
