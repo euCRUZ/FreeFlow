@@ -24,7 +24,6 @@ body {
 }
 
 .dashboard_container {
-    min-width: 40%;
     min-height: 100%;
     background-color: var(--bg);
 	display: grid;
@@ -156,7 +155,7 @@ path {
     flex-direction: column;
     justify-content: center;
     min-height: 18.5rem;
-    min-width: 25rem;
+    width: 25rem;
     background-color: #14161D;
     padding: 24px;
     border-radius: 10px;
@@ -189,21 +188,23 @@ footer h2 {
 
 @media (max-width: 1043px) {
 
-    body {
+    /* body {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    } */
     
     .dashboard_container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        
     }
     
     .medium_card{
         display: flex;
-        width: 75%;
+        width: fit-content;
         height: max-content;
     }
 
@@ -225,4 +226,14 @@ footer h2 {
         height: 80%;
     }
 
+
+    .bottom_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom_svg_mapa{
+        padding: 2rem;
+        max-width: 100%;
+    }
 }

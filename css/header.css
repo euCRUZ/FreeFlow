@@ -3,11 +3,15 @@
   --bgCard: #14161D;
 }
  
-nav {
+header {
   background-color: var(--bgCard);
   width: 100%;
   transition: all 0.3s;
-  height: 100%;
+}
+
+span {
+  color: white;
+  border: white;
 }
 
 .botao_dashboard, .botao_camera {
@@ -15,7 +19,7 @@ nav {
   background-color: var(--bg);
   border: none;
   border-radius: 10px;
-  width: 8rem;
+  width: 6rem;
   text-align: center;
   transition: all 0.3s;
   margin: 0 1rem;
@@ -37,13 +41,16 @@ nav {
 
 @media (max-width: 991px) {
 
+  header {
+    width: 100%;
+  }
+
   .botoes {
     display: block;
     margin: 1rem 1rem;
   }
  
   .botao_dashboard, .botao_camera {
-    width: 20%;
     margin: 0.8rem 0;
   }
 }
